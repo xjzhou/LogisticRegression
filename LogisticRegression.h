@@ -1,6 +1,7 @@
 /*
  * Logsitic Regression classifier version 0.03
-  Last updated on 2015-4-12
+   Last updated on 2015-4-12
+   参考：http://blog.csdn.net/xceman1997/article/details/17881681
  */
 
 #pragma once

@@ -59,6 +59,8 @@ bool LogisticRegression::CountClassAndFeature (const char * sFileIn)
 			if (FeatureIndexMap.find(sFeature) == FeatureIndexMap.end())
 			{
 				FeatureIndexMap.insert(pair<string, int>(sFeature, iFeatureIndex++));
+                printf("------ [%d:%s]:[%d:%s]\n", iClassIndex, sClass.c_str(), iFeatureIndex, sFeature.c_str());
+                
 			}
 		}
 	}
